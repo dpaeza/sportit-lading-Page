@@ -108,13 +108,81 @@ h1{
     letter-spacing: -1.75px;
 }
 
+.different-section{
+    background-color: #8B48BF;;
+    display: flex;
+    padding: 40px 10%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.different-section h2{
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 114.6%;
+    
+}
+
+.different-section p{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.1%;
+    width: 50%; 
+}
+
+.benefits-container{
+    background-color: #FAFAFA;
+    padding: 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 35px;
+    column-gap: 75px;
+}
+
+.benefit-card{
+    width: 540px;
+}
+
+.benefit-card span{
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-right: 23px;
+    margin-top: 10px;
+    background: #8B48BF;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.benefit-card h3{
+    color: #323851;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.24px;
+    padding: 10px 0px;
+}
+
+.benefit-card p{
+    color: #B3B2B7;
+    font-size: 16.298px;
+    font-weight: 500;
+    line-height: 156.6%;
+    letter-spacing: -0.163px;
+    margin: 18px 0px 0px 93px;
+}
+
 
 @media (max-width: 950px) {
     .header-section div{
         width: 80%;
     }
 }
-
 
 @media (max-width: 760px) {
 
@@ -143,5 +211,32 @@ h1{
         padding-left: 0;
         width: 100%;
         margin-top: 100px;
+    }
+
+    .different-section{
+        background-color: #3CDDF3;;
+        flex-direction: column;
+        padding: 40px 3%;
+        gap: 50px;
+        align-items: flex-start;
+    }
+    
+    .different-section p{
+        width: 100%; 
+    }
+
+    .benefits-container{
+        background-color: #FFF;;
+        padding: 40px 0px 40px 5%;
+        row-gap: 30px;
+    }
+
+    .benefit-card{
+        width: 100%;
+    }
+
+    .benefit-card h3{
+        border-radius: 50px 0px 0px 50px;
+        background: rgba(139, 72, 191, 0.30);
     }
 }
