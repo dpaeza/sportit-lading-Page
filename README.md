@@ -6,4 +6,3 @@ Creation of HTML, styles and responsive of the following components of the site:
 * Section: "What's different between pros?".
 * Benefits Section.
 ![Daniela](./assets/images/image-1.png)
-

@@ -236,4 +236,8 @@ h1{
         border-radius: 50px 0px 0px 50px;
         background: rgba(139, 72, 191, 0.30);
     }
+
+    .benefit-card p{
+        margin: 18px 0px 0px 5px;
+    }
 }
