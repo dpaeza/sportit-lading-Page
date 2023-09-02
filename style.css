@@ -20,6 +20,7 @@ body{
 
 .nav-items{
     display: flex;
+    align-items: center;
     gap: 28px;
     list-style: none;
 }
@@ -27,17 +28,16 @@ body{
 .nav-items a {
     color: #242E52;
     font-size: 13px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 176.1%;
     text-decoration: none;
-    transition: transform 0.7s ease;
+    transition: color 0.4s ease;
 }
 
 .nav-items a:hover   {
     color: rgba(36, 46, 82, 0.60);
 }
 
+/* Estilo para los botones */
 .button{
     display: flex;
     height: 44px;
@@ -52,7 +52,7 @@ body{
     padding: 10px 40px;
     border: none;
     cursor: pointer;
-    transition: transform 0.7s ease;
+    transition: background 0.5s ease;
 }
 
 .button:hover{
@@ -89,22 +89,21 @@ body{
     padding-left: 7%;
 }
 
-.header-section p{
-    color: #000;
+.header-section p, h1 {
+    color: #232C50;
     text-align: right;
+}
+
+.header-section p{
     font-size: 16.558px;
-    font-style: normal;
     font-weight: 500;
-    line-height: 157.1%; /* 26.013px */
+    line-height: 157.1%;
 }
 
 h1{
-    color: #232C50;
-    text-align: right;
     font-size: 50px;
-    font-style: normal;
     font-weight: 700;
-    line-height: 114.6%; /* 57.3px */
+    line-height: 114.6%;
     letter-spacing: -1.75px;
 }
 
@@ -120,7 +119,6 @@ h1{
 .different-section h2{
     color: #FFF;
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: 114.6%;
     
@@ -129,7 +127,6 @@ h1{
 .different-section p{
     color: #FFF;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 151.1%;
     width: 50%; 
