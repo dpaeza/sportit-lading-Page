@@ -1,243 +1,411 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: 'Be Vietnam Pro', sans-serif;
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
 }
 
-.header{
-    padding: 65px 8% 140px 8%;
+.header {
+  padding: 65px 8% 140px 8%;
 }
 
-.nav-bar{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav-items{
-    display: flex;
-    align-items: center;
-    gap: 28px;
-    list-style: none;
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  list-style: none;
 }
 
 .nav-items a {
-    color: #242E52;
-    font-size: 13px;
-    font-weight: 500;
-    text-decoration: none;
-    transition: color 0.4s ease;
+  color: #242e52;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.4s ease;
 }
 
-.nav-items a:hover   {
-    color: rgba(36, 46, 82, 0.60);
+.nav-items a:hover {
+  color: rgba(36, 46, 82, 0.6);
 }
 
 /* Estilo para los botones */
-.button{
-    display: flex;
-    height: 44px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    background: #8B48BF;
-    box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
-    font-size: 13.181px;
-    font-weight: 500;
-    color: #FFF;
-    padding: 10px 40px;
-    border: none;
-    cursor: pointer;
-    transition: background 0.5s ease;
+.button {
+  display: flex;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background: #8b48bf;
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+  font-size: 13.181px;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px 40px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.5s ease;
 }
 
-.button:hover{
-    background: rgba(139, 72, 191, 0.70);
+.button:hover {
+  background: rgba(139, 72, 191, 0.7);
 }
 
-.icon-hamburger{
-    display: none;
+.icon-hamburger {
+  display: none;
 }
 
-.header-section{
-    display: flex;
-    margin-top: 160px;
-    justify-content: space-between;
+.header-section {
+  display: flex;
+  margin-top: 160px;
+  justify-content: space-between;
 }
 
-.header-section figure{
-    display: flex;
-    align-items: center;
+.header-section figure {
+  display: flex;
+  align-items: center;
 }
 
-.header-section img{
-    object-fit: contain;
-    width: 100%;
+.header-section img {
+  object-fit: contain;
+  width: 100%;
 }
 
-.header-section div{
-    display: flex;
-    flex-direction: column;
-    gap: 28px;
-    align-items: flex-end;
-    justify-content: center;
-    width: 50%;
-    padding-left: 7%;
+.header-section div {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: flex-end;
+  justify-content: center;
+  width: 50%;
+  padding-left: 7%;
 }
 
-.header-section p, h1 {
-    color: #232C50;
-    text-align: right;
+.header-section p,
+h1 {
+  color: #232c50;
+  text-align: right;
 }
 
-.header-section p{
-    font-size: 16.558px;
-    font-weight: 500;
-    line-height: 157.1%;
+.header-section p {
+  font-size: 16.558px;
+  font-weight: 500;
+  line-height: 157.1%;
 }
 
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 114.6%;
+  letter-spacing: -1.75px;
+}
+
+.different-section {
+  background-color: #8b48bf;
+  display: flex;
+  padding: 40px 10%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.different-section h2 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 114.6%;
+}
+
+.different-section p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 151.1%;
+  width: 50%;
+}
+
+.benefits-container {
+  background-color: #fafafa;
+  padding: 40px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 35px;
+  column-gap: 75px;
+}
+
+.benefit-card {
+  width: 540px;
+}
+
+.benefit-card span {
+  padding: 10px 25px;
+  border-radius: 30px;
+  margin-right: 23px;
+  margin-top: 10px;
+  background: #8b48bf;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.benefit-card h3 {
+  color: #323851;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.24px;
+  padding: 10px 0px;
+}
+
+.benefit-card p {
+  color: #b3b2b7;
+  font-size: 16.298px;
+  font-weight: 500;
+  line-height: 156.6%;
+  letter-spacing: -0.163px;
+  margin: 18px 0px 0px 93px;
+}
+
+.best-month{
+    padding: 97px 86px 180px;
+    text-align: center;
+}
+
+.best-month button{
+    display: inline-block;
+    margin-top: 45px;
+}
+
+.best-month h2{
+    color: #242E53;
+    font-size: 39.214px;
     font-weight: 700;
-    line-height: 114.6%;
-    letter-spacing: -1.75px;
+    line-height: 156.6%;
+    letter-spacing: -0.392px;
+    margin-bottom: 74px;
 }
 
-.different-section{
-    background-color: #8B48BF;;
-    display: flex;
-    padding: 40px 10%;
-    justify-content: space-between;
-    align-items: center;
-    gap: 100px;
+.best-cards-container {
+  display: flex;
 }
 
-.different-section h2{
-    color: #FFF;
-    font-size: 36px;
+.best-card {
+  background: #FAFAFA;
+  padding: 50px 21px 23px;
+  text-align: center;
+  position: relative;
+}
+
+.best-card img{
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.best-card h4{
+    color: #3F4868;
+    font-size: 16.071px;
     font-weight: 700;
-    line-height: 114.6%;
-    
+    line-height: 156.6%;
+    letter-spacing: -0.161px;
+    margin-bottom: 21px;
 }
 
-.different-section p{
-    color: #FFF;
+.best-card p{
+    color: #B9B9C1;
     font-size: 16px;
-    font-weight: 500;
-    line-height: 151.1%;
-    width: 50%; 
-}
-
-.benefits-container{
-    background-color: #FAFAFA;
-    padding: 40px 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    row-gap: 35px;
-    column-gap: 75px;
-}
-
-.benefit-card{
-    width: 540px;
-}
-
-.benefit-card span{
-    padding: 10px 25px;
-    border-radius: 30px;
-    margin-right: 23px;
-    margin-top: 10px;
-    background: #8B48BF;
-    color: #FFF;
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.benefit-card h3{
-    color: #323851;
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: -0.24px;
-    padding: 10px 0px;
-}
-
-.benefit-card p{
-    color: #B3B2B7;
-    font-size: 16.298px;
     font-weight: 500;
     line-height: 156.6%;
-    letter-spacing: -0.163px;
-    margin: 18px 0px 0px 93px;
 }
+
+
 
 
 @media (max-width: 950px) {
-    .header-section div{
-        width: 80%;
-    }
+  .header-section div {
+    width: 80%;
+  }
 }
 
 @media (max-width: 760px) {
+  .header {
+    padding: 40px 8%;
+  }
 
-    .header{
-        padding: 40px 8%;
-    }
+  .nav-items {
+    display: none;
+  }
 
-    .nav-items{
-        display: none;
-    }
+  .ocult {
+    display: none;
+  }
 
-    .ocult{
-        display: none;
-    }
+  .icon-hamburger {
+    display: flex;
+  }
 
-    .icon-hamburger{
-        display: flex;
-    }
+  .header-section {
+    flex-direction: column;
+    margin-top: 64px;
+  }
 
-    .header-section{
-        flex-direction: column;
-        margin-top: 64px;
-    }
+  .header-section div {
+    padding-left: 0;
+    width: 100%;
+    margin-top: 100px;
+  }
 
-    .header-section div{
-        padding-left: 0;
-        width: 100%;
-        margin-top: 100px;
-    }
+  .different-section {
+    background-color: #3cddf3;
+    flex-direction: column;
+    padding: 40px 3%;
+    gap: 50px;
+    align-items: flex-start;
+  }
 
-    .different-section{
-        background-color: #3CDDF3;;
-        flex-direction: column;
-        padding: 40px 3%;
-        gap: 50px;
-        align-items: flex-start;
-    }
-    
-    .different-section p{
-        width: 100%; 
-    }
+  .different-section p {
+    width: 100%;
+  }
 
-    .benefits-container{
-        background-color: #FFF;;
-        padding: 40px 0px 40px 5%;
-        row-gap: 30px;
-    }
+  .benefits-container {
+    background-color: #fff;
+    padding: 40px 0px 40px 5%;
+    row-gap: 30px;
+  }
 
-    .benefit-card{
-        width: 100%;
-    }
+  .benefit-card {
+    width: 100%;
+  }
 
-    .benefit-card h3{
-        border-radius: 50px 0px 0px 50px;
-        background: rgba(139, 72, 191, 0.30);
-    }
+  .benefit-card h3 {
+    border-radius: 50px 0px 0px 50px;
+    background: rgba(139, 72, 191, 0.3);
+  }
 
-    .benefit-card p{
-        margin: 18px 0px 0px 5px;
+  .benefit-card p {
+    margin: 18px 0px 0px 5px;
+  }
+
+  .best-month{
+    padding: 28px 18px 58px;
     }
+}
+
+/* FOOTER AXEL OLIVERA */
+
+.footer-container {
+  /* Estilos para el footer */
+  background-color: #1e1e26;
+  padding: 40px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 105px;
+  right: 70px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 2.5;
+  left: 350px;
+
+  /* Agrega más estilos según sea necesario */
+}
+
+.logo-img {
+  width: 100px;
+  height: 25px;
+  right: 170px;
+  margin-right: 10px;
+  margin-top: -30px;
+}
+
+.columna {
+  flex-basis: 45%;
+}
+
+.columna {
+  flex-basis: 30%;
+  margin-bottom: 20px;
+}
+/* Centro el contenido textual en tres columnas */
+
+/* Columna del medio color blanco */
+.footer-links {
+  color: white;
+  list-style: none;
+}
+
+.footer-links li a {
+  color: white;
+  text-decoration: none;
+}
+/* Columna de la derecha color blanco */
+.Footer-links_2 {
+  color: white;
+  list-style: none;
+}
+
+.Footer-links_2 li a {
+  color: white;
+  text-decoration: none;
+}
+/* Columna de la derecha color blanco */
+
+.Logos_Abajo {
+  margin-top: 119px;
+}
+
+/* Botón e Input */
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.oval-input {
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  outline: none;
+  flex: 1;
+  position: relative;
+  top: -60px;
+  left: 40px;
+  left: 250px;
+}
+
+.oval-button {
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  background-color: #8b48bf;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+  position: relative;
+  top: -60px;
+  left: 250px;
+}
+/* Botón e Input */
+
+.footer-copyright {
+  position: relative;
+  left: 40px;
+  top: 70px;
+  color: white;
+}
+
+.Envoltura_Definitiva {
+  display: grid;
+  grid-template-columns: repeat(4);
+  grid-gap: 20px;
+  left: 40px;
+  padding: 10px;
 }
