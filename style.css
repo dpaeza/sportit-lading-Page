@@ -174,23 +174,23 @@ h1 {
   margin: 18px 0px 0px 93px;
 }
 
-.best-month{
-    padding: 97px 86px 180px;
-    text-align: center;
+.best-month {
+  padding: 97px 86px 180px;
+  text-align: center;
 }
 
-.best-month button{
-    display: inline-block;
-    margin-top: 45px;
+.best-month button {
+  display: inline-block;
+  margin-top: 45px;
 }
 
-.best-month h2{
-    color: #242E53;
-    font-size: 39.214px;
-    font-weight: 700;
-    line-height: 156.6%;
-    letter-spacing: -0.392px;
-    margin-bottom: 74px;
+.best-month h2 {
+  color: #242e53;
+  font-size: 39.214px;
+  font-weight: 700;
+  line-height: 156.6%;
+  letter-spacing: -0.392px;
+  margin-bottom: 74px;
 }
 
 .best-cards-container {
@@ -198,193 +198,221 @@ h1 {
 }
 
 .best-card {
-  background: #FAFAFA;
+  background: #fafafa;
   padding: 50px 21px 23px;
   text-align: center;
   position: relative;
 }
 
-.best-card img{
-    position: absolute;
-    top: -35px;
-    left: 50%;
-    transform: translateX(-50%);
+.best-card img {
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.best-card h4{
-    color: #3F4868;
-    font-size: 16.071px;
-    font-weight: 700;
-    line-height: 156.6%;
-    letter-spacing: -0.161px;
-    margin-bottom: 21px;
+.best-card h4 {
+  color: #3f4868;
+  font-size: 16.071px;
+  font-weight: 700;
+  line-height: 156.6%;
+  letter-spacing: -0.161px;
+  margin-bottom: 21px;
 }
 
-.best-card p{
-    color: #B9B9C1;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 156.6%;
+.best-card p {
+  color: #b9b9c1;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 156.6%;
 }
 
-.know-teams{
-    background: #8B48BF;
-    display: flex;
-    padding: 64px 165px;
-    justify-content: space-between;
+.know-teams {
+  background: #8b48bf;
+  display: flex;
+  padding: 64px 165px;
+  justify-content: space-between;
 }
 
-.know-teams h2{
-    color: #FFF;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 119.6%;
-    letter-spacing: -0.2px;
+.know-teams h2 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 119.6%;
+  letter-spacing: -0.2px;
 }
 
-.salto{
-    display: none;
+.salto {
+  display: none;
 }
 
-.know-teams button{
-    color: #8B48BF;
-    font-size: 13.181px;
-    font-weight: 500;
-    border-radius: 50px;
-    background: #FFF;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
-    height: 44px;
-    display: flex;
-    align-items: center;
-    padding: 10px 40px;
-    border: none;
-    cursor: pointer;
-    transition: background 0.5s ease;
+.know-teams button {
+  color: #8b48bf;
+  font-size: 13.181px;
+  font-weight: 500;
+  border-radius: 50px;
+  background: #fff;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 10px 40px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.5s ease;
 }
 
-.know-teams button:hover{
-    background: rgba(200, 179, 216, 0.7);
+.know-teams button:hover {
+  background: rgba(200, 179, 216, 0.7);
 }
 
-/* FOOTER AXEL OLIVERA */
+/* Footer */
 
-.footer-container {
-    /* Estilos para el footer */
-    background-color: #1e1e26;
-    padding: 40px 0px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    column-gap: 105px;
-    right: 70px;
-    display: flex;
-    justify-content: space-between;
-    line-height: 2.5;
-    left: 350px;
-  
-    /* Agrega más estilos según sea necesario */
-  }
-  
-  .logo-img {
-    width: 100px;
-    height: 25px;
-    right: 170px;
-    margin-right: 10px;
-    margin-top: -30px;
-  }
-  
-  .columna {
-    flex-basis: 45%;
-  }
-  
-  .columna {
-    flex-basis: 30%;
-    margin-bottom: 20px;
-  }
-  /* Centro el contenido textual en tres columnas */
-  
-  /* Columna del medio color blanco */
-  .footer-links {
-    color: white;
-    list-style: none;
-  }
-  
-  .footer-links li a {
-    color: white;
-    text-decoration: none;
-  }
-  /* Columna de la derecha color blanco */
-  .Footer-links_2 {
-    color: white;
-    list-style: none;
-  }
-  
-  .Footer-links_2 li a {
-    color: white;
-    text-decoration: none;
-  }
-  /* Columna de la derecha color blanco */
-  
-  .Logos_Abajo {
-    margin-top: 119px;
-  }
-  
-  /* Botón e Input */
-  .input-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  .oval-input {
-    border: none;
-    border-radius: 50px;
-    padding: 10px 20px;
-    outline: none;
-    flex: 1;
-    position: relative;
-    top: -60px;
-    left: 40px;
-    left: 250px;
-  }
-  
-  .oval-button {
-    border: none;
-    border-radius: 50px;
-    padding: 10px 20px;
-    background-color: #8b48bf;
-    color: white;
-    margin-left: 10px;
-    cursor: pointer;
-    position: relative;
-    top: -60px;
-    left: 250px;
-  }
-  /* Botón e Input */
-  
-  .footer-copyright {
-    position: relative;
-    left: 40px;
-    top: 70px;
-    color: white;
-  }
-  
-  .Envoltura_Definitiva {
-    display: grid;
-    grid-template-columns: repeat(4);
-    grid-gap: 20px;
-    left: 40px;
-    padding: 10px;
-  }
+.footer {
+  background-color: #1e1e26;
+  padding: 54px 165px 43px;
+}
 
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  transition: color 0.4s ease;
+}
+
+.footer a:hover {
+  color: rgba(243, 244, 247, 0.6);
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.logos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logos-container ul {
+  display: flex;
+  gap: 13px;
+}
+
+.footer-links-container {
+  display: flex;
+}
+
+.nav1 {
+  margin-right: 150px;
+}
+
+.footer-links-container ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer form {
+  display: flex;
+  gap: 10px;
+}
+
+.footer input {
+  border-radius: 50px;
+  background: #fff;
+  height: 44px;
+  padding: 10px;
+  border: none;
+}
+
+/* Uso de pseudoselector */
+.footer input ::placeholder {
+  color: #a0a0a0;
+  font-size: 13.181px;
+  font-weight: 600;
+}
+
+.logo-footer {
+  width: 107.684px;
+}
+
+.footer p {
+  text-align: right;
+  color: #8c8c94;
+  font-size: 12.5px;
+  font-weight: 500;
+}
 
 @media (max-width: 950px) {
   .header-section div {
     width: 80%;
   }
 
-  .know-teams{
-        padding: 64px 80px;
-    }
+  .know-teams {
+    padding: 64px 80px;
+  }
+
+  .footer {
+    padding: 50px 40px;
+  }
+
+  .main-footer {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .logos-container {
+    gap: 25px;
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .logo-footer {
+    align-self: center;
+  }
+
+  .logos-container nav {
+    width: 100%;
+  }
+
+  .logos-container ul {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .nav1 {
+    margin-right: 0;
+  }
+
+  .footer-links-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px 20px;
+  }
+
+  .footer form {
+    width: 100%;
+  }
+
+  .footer input {
+    width: 100%;
+  }
+
+  .footer p {
+    margin-top: 45px;
+    text-align: center;
+  }
 }
 
 @media (max-width: 760px) {
@@ -446,29 +474,29 @@ h1 {
     margin: 18px 0px 0px 5px;
   }
 
-  .best-month{
+  .best-month {
     padding: 28px 18px 58px;
-    }
+  }
 
-    .know-teams{
-        background: #3CDDF3;
-        display: block;
-        padding: 40px 50px;
-        text-align: center;
-    }
+  .know-teams {
+    background: #3cddf3;
+    display: block;
+    padding: 40px 50px;
+    text-align: center;
+  }
 
-    .salto{
-        display: flex;
-    }
+  .salto {
+    display: flex;
+  }
 
-    .know-teams button{
-        background: #232C50;
-        color: #FFF;
-        display: inline-block;
-        margin-top: 50px;
-    }
-    
-    .know-teams button:hover{
-        background: rgba(139, 72, 191, 0.70);
-    }
+  .know-teams button {
+    background: #232c50;
+    color: #fff;
+    display: inline-block;
+    margin-top: 50px;
+  }
+
+  .know-teams button:hover {
+    background: rgba(139, 72, 191, 0.7);
+  }
 }
