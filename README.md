@@ -2,7 +2,7 @@
 * Daniela Paez
 * Axel Olivera
 
-** The pseudo class: hover and the pseudo element ::placeholder were used. **
+**The pseudo class: hover and the pseudo element ::placeholder were used.**
 
 # Contribution of each group member
 
