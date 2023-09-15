@@ -11,6 +11,9 @@ body {
 /* Header */
 .header {
   padding: 65px 8% 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-bar {
